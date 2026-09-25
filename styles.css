@@ -1,0 +1,288 @@
+/* =========================================
+#   BASE
+   ========================================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, [data-testid="stAppViewContainer"] {
+    background: #f7f9fc;
+    color: #1a1a2e;
+    font-family: 'Inter', 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+[data-testid="block-container"] {
+    padding: 2rem 1.5rem 4rem;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+/* =========================================
+   TYPOGRAPHY
+   ========================================= */
+.hero-title {
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    color: #0d1b2a;
+    margin: 0.5rem 0 0.5rem;
+}
+
+.hero-sub {
+    font-size: 1.1rem;
+    color: #3d4f61;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+}
+
+.trial-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #6b7f94;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+/* =========================================
+   BADGE
+   ========================================= */
+.badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: #e8f0fe;
+    border: 1px solid #b3c8f5;
+    color: #1a4a8a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+/* =========================================
+   DIVIDER
+   ========================================= */
+.divider {
+    border: none;
+    border-top: 1px solid #dde4ed;
+    margin: 2rem 0;
+}
+
+/* =========================================
+   INSTRUCTION BOX
+   ========================================= */
+.instructions-box {
+    background: #ffffff;
+    border: 1px solid #dde4ed;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #2c3e50;
+}
+
+.instructions-box li {
+    margin-bottom: 0.5rem;
+}
+
+/* =========================================
+   STAT BOXES
+   ========================================= */
+.stat-box {
+    background: #ffffff;
+    border: 1px solid #dde4ed;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.stat-val {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0d1b2a;
+    line-height: 1;
+}
+
+.stat-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #6b7f94;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+/* =========================================
+   CLIP CARD
+   ========================================= */
+.clip-card {
+    background: #ffffff;
+    border: 2px solid #dde4ed;
+    border-radius: 12px;
+    padding: 1.25rem 1.25rem 1rem;
+    margin-bottom: 0.75rem;
+    transition: border-color 0.15s ease;
+}
+
+.clip-letter {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #0d1b2a;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+audio {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* =========================================
+   FEEDBACK
+   ========================================= */
+.feedback-correct {
+    background: #f0faf2;
+    border: 1px solid #85c99b;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    color: #1e6b38;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+.feedback-wrong {
+    background: #fdf2f2;
+    border: 1px solid #e0a0a0;
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    color: #8b2020;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+.stButton > button {
+    width: 100%;
+    background: #1a4a8a;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    transition: background 0.15s ease;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.stButton > button:hover {
+    background: #0d2f5e;
+}
+
+.stButton > button:disabled {
+    background: #b0bec5;
+    cursor: not-allowed;
+}
+
+/* =========================================
+   INPUT
+   ========================================= */
+div[data-testid="stTextInput"] input {
+    background: #ffffff;
+    border: 1.5px solid #c0ccd8;
+    border-radius: 8px;
+    color: #1a1a2e;
+    font-size: 1rem;
+    padding: 0.65rem 0.9rem;
+}
+
+div[data-testid="stTextInput"] input:focus {
+    border-color: #1a4a8a;
+    box-shadow: 0 0 0 3px rgba(26, 74, 138, 0.15);
+    outline: none;
+}
+
+/* =========================================
+   LEADERBOARD
+   ========================================= */
+.leaderboard-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #eaeef3;
+    font-size: 0.95rem;
+}
+
+.leaderboard-row.me {
+    background: #e8f0fe;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #1a4a8a;
+}
+
+.rank-num {
+    min-width: 2.25rem;
+    color: #6b7f94;
+    font-weight: 700;
+}
+
+.lb-name { flex: 1; }
+
+.lb-score {
+    font-weight: 700;
+    color: #0d1b2a;
+}
+
+.lb-acc {
+    color: #6b7f94;
+    font-size: 0.85rem;
+    min-width: 3rem;
+    text-align: right;
+}
+
+/* =========================================
+   CONSENT
+   ========================================= */
+.consent-item {
+    font-size: 0.95rem;
+    color: #2c3e50;
+    padding: 0.4rem 0;
+    line-height: 1.6;
+}
+
+.consent-legal {
+    font-size: 0.85rem;
+    color: #6b7f94;
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+
+/* =========================================
+   LOGO
+   ========================================= */
+.logo-row {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* =========================================
+   HIDE STREAMLIT CHROME
+   ========================================= */
+footer, #MainMenu, header {
+    visibility: hidden;
+}

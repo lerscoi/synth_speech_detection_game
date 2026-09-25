@@ -1,0 +1,5 @@
+__pycache__/
+.venv
+game_database/old
+generate_pool.py
+test.py

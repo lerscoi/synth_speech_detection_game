@@ -1,0 +1,101 @@
+audio_name,effective_label,tts_model,pipeline
+dev-clean_7976_110523_000006_000000,bonafide,-,Pitch Shift
+dev-clean_6241_61946_000019_000003,bonafide,-,Time Stretch
+dev-clean_1919_142785_000092_000001,bonafide,-,Resample Up
+dev-clean_251_137823_000006_000000,bonafide,-,Resample Up
+dev-clean_251_118436_000015_000000,bonafide,-,Pitch Shift
+dev-clean_3170_137482_000032_000002,bonafide,-,Gaussian Noise
+dev-clean_3853_163249_000125_000000,bonafide,-,Resample Down
+test-clean_3729_6852_000041_000001,bonafide,-,Resample Down
+dev-clean_251_137823_000059_000000,bonafide,-,Soundscape Mix
+test-clean_7176_92135_000012_000004,bonafide,-,Soundscape Mix
+test-clean_4992_41806_000010_000002,bonafide,-,Gaussian Noise
+dev-clean_6345_93306_000005_000000,bonafide,-,Time Stretch
+dev-clean_8297_275154_000007_000000,bonafide,-,Resample Up
+dev-clean_6345_93306_000016_000001,bonafide,-,Gaussian Noise
+dev-clean_1673_143397_000031_000006,bonafide,-,Resample Up
+dev-clean_1993_147149_000041_000004,bonafide,-,MP3
+test-clean_8455_210777_000059_000000,bonafide,-,Resample Up
+test-clean_2961_961_000022_000007,bonafide,-,Pitch Shift
+dev-clean_84_121550_000294_000000,bonafide,-,MP3
+test-clean_3570_5694_000011_000002,bonafide,-,Soundscape Mix
+dev-clean_1919_142785_000100_000003,bonafide,-,Resample Down
+test-clean_7021_79759_000004_000004,bonafide,-,MP3
+test-clean_3570_5696_000009_000007,bonafide,-,Time Stretch
+dev-clean_251_118436_000037_000002,bonafide,-,Soundscape Mix
+test-clean_8230_279154_000027_000002,bonafide,-,Pitch Shift
+test-clean_5683_32866_000045_000006,bonafide,-,Gaussian Noise
+dev-clean_84_121550_000184_000000,bonafide,-,Time Stretch
+dev-clean_2035_147961_000004_000004,bonafide,-,Resample Up
+dev-clean_174_168635_000036_000000,bonafide,-,Soundscape Mix
+test-clean_2300_131720_000037_000002,bonafide,-,Resample Up
+test-clean_8230_279154_000027_000001,bonafide,-,MP3
+dev-clean_251_137823_000051_000001,bonafide,-,Pitch Shift
+dev-clean_251_118436_000014_000002,bonafide,-,Resample Down
+dev-clean_2428_83699_000008_000004,bonafide,-,Soundscape Mix
+test-clean_3570_5695_000010_000002,bonafide,-,Gaussian Noise
+dev-clean_3170_137482_000047_000000,bonafide,-,Resample Down
+dev-clean_2803_154328_000006_000005,bonafide,-,Resample Down
+test-clean_121_123859_000017_000001,bonafide,-,Soundscape Mix
+dev-clean_5338_284437_000054_000000,bonafide,-,Gaussian Noise
+test-clean_1995_1826_000016_000007,bonafide,-,Pitch Shift
+test-clean_237_126133_000025_000001,bonafide,-,Time Stretch
+dev-clean_174_84280_000004_000005,bonafide,-,MP3
+dev-clean_6241_61943_000038_000005,bonafide,-,Resample Up
+test-clean_908_31957_000021_000002,bonafide,-,Pitch Shift
+test-clean_5105_28233_000013_000004,bonafide,-,Time Stretch
+dev-clean_2803_154328_000006_000001,bonafide,-,Soundscape Mix
+test-clean_7176_92135_000083_000000,bonafide,-,Gaussian Noise
+dev-clean_2086_149220_000047_000003,bonafide,-,MP3
+test-clean_121_127105_000041_000000,bonafide,-,Time Stretch
+dev-clean_3170_137482_000058_000007,bonafide,-,Gaussian Noise
+dev01-elevenlab-full_1462_170138_000001_000001,spoof,elevenlab,Resample Down
+dev01-cosyvoice-full_7976_105575_000007_000003,spoof,cosyvoice,Resample Up
+dev01-ljjets-full_84_121123_000049_000000,spoof,ljjets,Time Stretch
+dev01-gptsovits-full_1462_170145_000025_000001,spoof,gptsovits,Soundscape Mix
+dev01-xttsv2-full_8297_275154_000012_000002,spoof,xttsv2,Resample Down
+dev01-yourtts-full_6345_93302_000036_000002,spoof,yourtts,Pitch Shift
+dev01-elevenlab-full_3853_163249_000101_000000,spoof,elevenlab,MP3
+dev01-cosyvoice-full_7976_105575_000007_000007,spoof,cosyvoice,MP3
+dev01-ljjets-full_6241_61943_000037_000000,spoof,ljjets,Soundscape Mix
+dev01-gptsovits-full_6313_66129_000040_000002,spoof,gptsovits,MP3
+dev01-xttsv2-full_2035_147961_000004_000000,spoof,xttsv2,Gaussian Noise
+dev01-yourtts-full_2803_154328_000062_000001,spoof,yourtts,Resample Up
+dev01-elevenlab-full_3170_137482_000062_000000,spoof,elevenlab,Resample Down
+dev01-cosyvoice-full_2086_149220_000003_000002,spoof,cosyvoice,Time Stretch
+dev01-ljjets-full_3000_15664_000035_000002,spoof,ljjets,Resample Down
+dev01-gptsovits-full_2035_152373_000009_000001,spoof,gptsovits,MP3
+dev01-xttsv2-full_2035_147960_000005_000012,spoof,xttsv2,Pitch Shift
+dev01-yourtts-full_5536_43358_000027_000003,spoof,yourtts,Time Stretch
+dev01-elevenlab-full_7850_281318_000009_000000,spoof,elevenlab,Gaussian Noise
+dev01-cosyvoice-full_1993_147964_000003_000002,spoof,cosyvoice,Resample Down
+dev01-ljjets-full_2277_149897_000030_000000,spoof,ljjets,Gaussian Noise
+dev01-gptsovits-full_1673_143397_000025_000011,spoof,gptsovits,Resample Up
+dev01-xttsv2-full_251_137823_000002_000000,spoof,xttsv2,Soundscape Mix
+dev01-yourtts-full_84_121550_000126_000000,spoof,yourtts,Resample Up
+dev01-elevenlab-full_6319_275224_000021_000001,spoof,elevenlab,Resample Down
+dev01-cosyvoice-full_251_136532_000012_000004,spoof,cosyvoice,Gaussian Noise
+dev01-ljjets-full_2412_153954_000004_000005,spoof,ljjets,Gaussian Noise
+dev01-gptsovits-full_2086_149220_000045_000003,spoof,gptsovits,Resample Down
+dev01-xttsv2-full_5895_34615_000029_000006,spoof,xttsv2,MP3
+dev01-yourtts-full_6345_64257_000004_000006,spoof,yourtts,Gaussian Noise
+dev01-elevenlab-full_84_121550_000196_000000,spoof,elevenlab,Gaussian Noise
+dev01-cosyvoice-full_3000_15664_000003_000002,spoof,cosyvoice,Time Stretch
+dev01-ljjets-full_5895_34615_000013_000010,spoof,ljjets,Resample Down
+dev01-gptsovits-full_3000_15664_000020_000010,spoof,gptsovits,Time Stretch
+dev01-xttsv2-full_3853_163249_000112_000002,spoof,xttsv2,MP3
+dev01-yourtts-full_5338_24615_000003_000005,spoof,yourtts,Time Stretch
+dev01-elevenlab-full_251_137823_000048_000000,spoof,elevenlab,Pitch Shift
+dev01-cosyvoice-full_2428_83705_000001_000005,spoof,cosyvoice,MP3
+dev01-ljjets-full_3170_137482_000065_000000,spoof,ljjets,Pitch Shift
+dev01-gptsovits-full_251_136532_000000_000001,spoof,gptsovits,Resample Up
+dev01-xttsv2-full_1988_24833_000027_000003,spoof,xttsv2,Pitch Shift
+dev01-yourtts-full_5536_43363_000007_000004,spoof,yourtts,Time Stretch
+dev01-elevenlab-full_7976_110523_000016_000007,spoof,elevenlab,Resample Up
+dev01-cosyvoice-full_6241_61946_000007_000000,spoof,cosyvoice,Pitch Shift
+dev01-ljjets-full_84_121123_000057_000000,spoof,ljjets,MP3
+dev01-gptsovits-full_7850_281318_000002_000001,spoof,gptsovits,Soundscape Mix
+dev01-xttsv2-full_3170_137482_000031_000000,spoof,xttsv2,Pitch Shift
+dev01-yourtts-full_84_121550_000149_000000,spoof,yourtts,Soundscape Mix
+dev01-elevenlab-full_2035_152373_000009_000005,spoof,elevenlab,MP3
+dev01-cosyvoice-full_174_84280_000003_000002,spoof,cosyvoice,Soundscape Mix
