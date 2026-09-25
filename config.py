@@ -75,3 +75,71 @@ TEXTS = {
     "consent_success": "✓ Your results have been submitted. Thank you for contributing to research!",
     "consent_fail": "Your results were not saved. Thank you for participating!",
 }
+
+TEXTS_FI = {
+    "page_title": "Fake One Out",
+    "page_icon": "🎙️",
+    "hero_title": "Fake One Out",
+    "hero_sub": (
+        "Sinut on kutsuttu osallistumaan peliin, jossa tutkitaan, kuinka hyvin ihmiset pystyvät erottamaan"
+        "aito ihmisen puhe vs. tekoälyn tuottama puhe.<br><br>"
+        "Jokaisella kierroksella kuulet kaksi ääniklippiä. Toinen on todellisen ihmisäänen tallenne; "
+        "toinen on tuotettu tekoälyn tekstistä puheeksi -järjestelmällä."
+        "Tehtäväsi on tunnistaa, kumpi klippi on todellinen ihmisääni.<br><br>"
+        "Molempiin klippeihin on saatettu soveltaa äänenkäsittelyä. Tämä on tarkoituksellista; keskity tunnistamaan "
+        "ihmisen ääni, älä äänenlaatua.<br><br>"
+        "Osallistuminen on vapaaehtoista ja anonyymiä: voit käyttää mitä tahansa käyttäjänimeä, sillä sitä ei tallenneta.<br>"
+        "Lopuksi voit valita, haluatko jakaa tuloksesi kanssamme."
+    ),
+    "rules": [
+        "Käytä kuulokkeita parhaan kokemuksen saamiseksi.",
+        "Kuuntele <b>molemmat</b> ääninäytteet ennen vastaamista. Voit toistaa kumpaakin niin monta kertaa kuin tarvitset.",
+        "Valitse se ääninäyte, jonka uskot olevan <b>aito ihmisääni</b>.",
+        f"Istunto päättyy {DEFAULT_LIVES} virheellisen vastauksen jälkeen. Yritä tehdä parhaasi. Kierroksia on yhteensä 50.",
+        "Voit lopettaa istunnon milloin tahansa näytön alareunassa olevalla painikkeella.",
+    ],
+    "feedback_correct": "Oikein. Äänite {} oli aito ihmisen ääni.",
+    "feedback_wrong": "Väärin. Ääniklippi {} oli tekoälyn tuottama ääni.<br>",
+    "lives_lost_note": "{} {} jäljellä.",
+    "game_over_note": "Elämiä ei ole jäljellä. Istunto on päättynyt.",
+    "leaderboard_label": "SESSION LEADERBOARD",
+    "how_to_play_label": "Ohjeet",
+    "round_label": "ROUND {}: MIKÄ ÄÄNENÄYTE ON AITO IHMISÄÄNI?",
+    "btn_start": "ALOITA ISTUNTO",
+    "btn_next": "SEURAAVA KIERROS",
+    "btn_quit": "LOPETA ISTUNTO JA KATSO TULOS",
+    "btn_play_again": "ALOITA UUSI ISTUNTO",
+    "btn_clip_a": "Äänite A on aito ääni",
+    "btn_clip_b": "Klippi B on aito ääni",
+    "error_no_db": "Audio database not found in `{}`. Please contact the researcher.",
+    "error_load_audio": "Audio clips could not be loaded. Please try again or contact the researcher.",
+    "consent_badge": "BEFORE YOU GO",
+    "consent_title": "Haluaisitko jakaa tuloksesi tutkijoiden kanssa?",
+    "consent_intro": (
+         f"Olemme {INSTITUTION_NAME} -laitoksen tutkijoita, jotka tutkivat, kuinka hyvin ihmiset tunnistavat tekoälyn tuottaman puheen."
+        "Tuloksesi voivat auttaa meitä. Osallistuminen on täysin vapaaehtoista. Voit kieltäytyä jakamasta tietojasi ilman, että siitä aiheutuu sinulle mitään seurauksia."
+        "Lue alla olevat tiedot ennen kuin teet päätöksesi."
+    ),
+    "consent_data_label": "DATA COLLECTED IF YOU CONSENT",
+    "consent_data_items": [
+        "Satunnaisesti luotu istuntotunnus. Tätä ei voida yhdistää henkilöllisyyteesi.",
+        "Kokonaistuloksesi, tarkkuusprosenttisi ja suoritettujen kierrosten määrä.",
+        "Kierroskohtaiset tiedot: mikä ääniklippi oli aito, minkä valitsit ja millaista äänenkäsittelyä sovellettiin.",
+    ],
+    "consent_no_pii": (
+        "Näytönimesi käytetään ainoastaan paikallisessa tulostaulussa, eikä sitä koskaan välitetä tutkijoille."
+    ),
+    "consent_purpose": (
+        f"Tietoja käytetään yksinomaan {INSTITUTION_NAME}:ssa tehtävään akateemiseen tutkimukseen, joka koskee tekoälyn tuottaman puheen havaitsemista"
+        "ja niitä saatetaan esittää tieteellisissä julkaisuissa aggregoidussa muodossa."
+    ),
+    "consent_withdraw": (
+         "Koska tunnistettavia tietoja ei kerätä, tietojasi ei ole mahdollista poistaa"
+        "lähettämisen jälkeen. Voit päättää olla jakamatta tietojasi ilman, että se vaikuttaa osallistumiseesi."
+        "Jos haluat lisätietoja, voit ottaa yhteyttä vastuulliseen tutkijaan osoitteessa lerscoi@uef.fi."
+    ),
+    "btn_consent_yes": "HYVÄKSYN - JAA TULOKSENI",
+    "btn_consent_no": "KIELTÄYDYN - ÄLÄ JAA TULOKSIAANI",
+    "consent_success": "✓ Tuloksesi on lähetetty. Kiitos, että osallistuit tutkimukseen!",
+    "consent_fail": "Tuloksiasi ei tallennettu. Kiitos osallistumisestasi!",
+}
